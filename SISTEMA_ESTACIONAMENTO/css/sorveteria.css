@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Yeseva+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 300px;
+
+}
+
+
+.titulo {  
+    text-align:center;
+    font-family: Yeseva One;
+    color: white;
+    font-size: 5px;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.img {
+    width: 35px;
+    margin-left: 8px;
+}
+
+.navbar{
+    
+    right: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9967a;
+    color: white;
+    font-family: Yeseva One;
+}
