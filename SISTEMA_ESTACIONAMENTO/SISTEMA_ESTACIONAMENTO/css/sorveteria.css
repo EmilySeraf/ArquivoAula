@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 1500px;
+
+}
+
+
+.titulo {  
+    text-align:center;
+    font-family: Yeseva One;
+    color: white;
+    font-size: 25px;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    margin-right: 30px;
+}
+
+.img {
+    width: 160px;
+    margin-left: 8px;
+}
+
+.navbar{
+    
+    right: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9967a;
+    color: white;
+    font-family: Yeseva One;
+}
+.paragrafo{
+
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 55px;
+    font-family: Poppins;
+}
+
+.imgs
+{
+    border-radius: 10px;
+    border: 10px black ;
+    width: 300px;
+    margin-left: 25px;
+    
+}
+
+.container {
+
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        border: 1px solid  rgb(0, 0, 0);
+        background-color: white;
+        width: 350px;
+        height: px;
+        align-items: center;
+        border-radius: 25px;
+    }
+
+
+.container span {
+    padding-left: 60px;
+}
+
+.prateleira{
+    display: flex;
+}
+
+.letra{
+
+    font-size: 25px;
+    text-align: center;
+}
+
+.button {
+    margin-left: 25px;
+    border:  solid;
+    text-decoration: none;
+    font-size: 25px;
+border-radius: 10px;
+border-color: black;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.comprar {
+    padding-left: 40px;
+    padding-right: 40px;
+}
